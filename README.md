@@ -1,6 +1,6 @@
 # Welcome to CompassDAO
 
-Hi, This is your info source for CompassDAO.
+This is your info source for CompassDAO.
 
 Visit the website:
 
