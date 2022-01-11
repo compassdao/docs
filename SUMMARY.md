@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to CompassDAO](README.md)
-* [Vision](general-information/vision.md)
 
 ## General Information
 
