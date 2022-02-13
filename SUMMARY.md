@@ -9,12 +9,12 @@
 * [Mission](general-information/mission.md)
 * [Value](general-information/value.md)
 * [Why CompassDAO?](general-information/why-compassdao.md)
-* [What CompassDAO do?](general-information/what-compassdao-do.md)
+* [Getting started with Compass](general-information/what-compassdao-do.md)
 * [Roadmap](general-information/roadmap.md)
+* [Tokenomics?](general-information/tokenomics.md)
 
 ## How-To Guides
 
-* [Using Compass](how-to-guides/using-compass.md)
 * [Contributing Compass](how-to-guides/contributing-compass/README.md)
   * [Content Creator](how-to-guides/contributing-compass/content-creator.md)
   * [Designer](how-to-guides/contributing-compass/designer.md)
@@ -22,7 +22,7 @@
 
 ## FAQ
 
-* [How can I use...](faq/how-can-i-use....md)
+* [Untitled](faq/how-can-i-use....md)
 
 ## Links
 
