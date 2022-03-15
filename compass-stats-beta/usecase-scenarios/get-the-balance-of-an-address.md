@@ -10,8 +10,13 @@ _The default Sample Script is a simple script to get the balance of an address, 
 
 _Once the script is saved, users can fill in the parameters in the “Test” Tab. We currently support parameters in JSON. Click Run to test out the script. For example, please refer to the screenshots below for the parameters for the wallet address. (ENS is supported as well)_&#x20;
 
-`{ "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045" }`
+```
+{ "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045" }
+```
 
-&#x20;{ "address": "vitalik.eth" }
+```
+ { "address": "vitalik.eth" }
+```
 
 ![Step 3](https://lh5.googleusercontent.com/mjmemwsF1jZb6CJkR2vMTUfiBNiKGqoauAn2CaFiVI3P0vWgCL6W2Z2WkS6KABCgLx2RvNk-JrtOgIx0TGNxOegj52SKCXSFHCTExHBuP0wiT0mRV9qep7rh3C1tRVdio-Mm31mm)
+

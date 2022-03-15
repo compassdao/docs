@@ -1,3 +1,3 @@
 # What is CompassDAO?
 
-A decentralized autonomous organization to build the powerful information aggregator - Compass, guiding the crypto investors.
+A decentralized autonomous organization to build Compass, a powerful information aggregator to guide investors in the crypto world.

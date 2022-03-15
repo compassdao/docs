@@ -1,3 +1,3 @@
-# Contributing Compass
+# Compass APY
 
-Here're the manuals for each roles.
+Here're the manuals for&#x20;
