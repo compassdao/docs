@@ -20,6 +20,16 @@
   * [Designer](how-to-guides/contributing-compass/designer.md)
   * [Developer](how-to-guides/contributing-compass/developer.md)
 
+***
+
+* [Compass Stats](compass-stats/README.md)
+  * [Devs Documentation](compass-stats/devs-documentation.md)
+  * [Usecase Scenarios](compass-stats/usecase-scenarios/README.md)
+    * [Get the balance of an address](compass-stats/usecase-scenarios/get-the-balance-of-an-address.md)
+    * [Monitoring the proportion of two tokens in a liquidity pool](compass-stats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
+    * [Monitoring large withdrawals from a pool on Convex](compass-stats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
+  * [Setting Up Notifications](compass-stats/setting-up-notifications.md)
+
 ## FAQ
 
 * [Untitled](faq/how-can-i-use....md)

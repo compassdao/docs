@@ -1,3 +1,3 @@
 # Contributing Compass
 
-Here're manuals for each roles.
+Here're the manuals for each roles.
