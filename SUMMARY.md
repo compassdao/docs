@@ -15,7 +15,7 @@
 
 ## How-To Guides
 
-* [Contributing Compass](how-to-guides/contributing-compass/README.md)
+* [Contributing to Compass](how-to-guides/contributing-compass/README.md)
   * [Content Creator](how-to-guides/contributing-compass/content-creator.md)
   * [Designer](how-to-guides/contributing-compass/designer.md)
   * [Developer](how-to-guides/contributing-compass/developer.md)
