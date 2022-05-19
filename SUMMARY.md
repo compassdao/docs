@@ -20,13 +20,13 @@
 
 ***
 
-* [Compass Stats(Beta)](compass-stats-beta/README.md)
-  * [Devs Documentation](compass-stats-beta/devs-documentation.md)
-  * [Usecase Scenarios](compass-stats-beta/usecase-scenarios/README.md)
-    * [Get the balance of an address](compass-stats-beta/usecase-scenarios/get-the-balance-of-an-address.md)
-    * [Monitoring the proportion of two tokens in a liquidity pool](compass-stats-beta/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
-    * [Monitoring large withdrawals from a pool on Convex](compass-stats-beta/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
-  * [Setting Up Notifications](compass-stats-beta/setting-up-notifications.md)
+* [Compass Stats](compass-stats/README.md)
+  * [Devs Documentation](compass-stats/devs-documentation.md)
+  * [Usecase Scenarios](compass-stats/usecase-scenarios/README.md)
+    * [Get the balance of an address](compass-stats/usecase-scenarios/get-the-balance-of-an-address.md)
+    * [Monitoring the proportion of two tokens in a liquidity pool](compass-stats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
+    * [Monitoring large withdrawals from a pool on Convex](compass-stats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
+  * [Setting Up Notifications](compass-stats/setting-up-notifications.md)
 
 ## FAQ
 
@@ -37,4 +37,4 @@
 * [Compass](https://compassdao.io)
 * [Github](https://github.com/compassdao)
 * [Twitter](https://twitter.com/compassdao)
-* [Discord](https://discord.com/invite/bG89QDHyVZ)
+* [Discord](https://discord.com/invite/T9Wp8NTKrZ)
