@@ -2,7 +2,7 @@
 
 * evm.getProvider(network):&#x20;
 
-Provider network: Ethereum, Ropsten, BSC, Polygon, FTM, AVAX, Optimism, Arbitrum, Moonriver&#x20;
+Provider network: Ethereum, Ropsten, BSC, Polygon, FTM, AVAX, Optimism, Arbitrum, Moonriver, Harmony&#x20;
 
 \[Provider] [https://docs.ethers.io/v5/api/providers/provider/](https://docs.ethers.io/v5/api/providers/provider/)
 

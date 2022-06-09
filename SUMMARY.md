@@ -29,7 +29,7 @@
 
 ## Links
 
-* [Compass](https://compassdao.io)
+* [Compass](https://compassdao.com)
 * [Github](https://github.com/compassdao)
 * [Twitter](https://twitter.com/compassdao)
 * [Discord](https://discord.com/invite/T9Wp8NTKrZ)
