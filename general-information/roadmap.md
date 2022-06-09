@@ -1,25 +1,19 @@
 # Roadmap
 
-**2021 Q4**
+**2022 Q1**&#x20;
 
-* Formation of the team, research, product development
-* Launch MVP version of Compass APY (Fast and accurate APY info on the widest variety of DeFi protocols)
+* Release lite paper
+* Launch Compass Stats MVP: launch script editor IDE for multi-chain data query and monitoring&#x20;
+* Start content operations: Twitter, Medium
 
-**2022 Q1 - Q2**
+**2022 Q2**
 
-* Lite paper & community setup
-* Launch website
-* Content operations: manuals, research reports, etc.
-* Community growth and business development
-* Compass APY V1.0 : integrate more pools, assets and chains
-* Compass Stats V1.0 : launch the product with script editor and monitor
-* Compass Stats V2.0: support community scripts
+* Launch Compass Stats V1.0: new UI, new UX
+* Launch Compass Stats V2.0: community functions like Discover, Star, etc
+* Start marketing and community operation: hackthons, partnership with other projects
 
 **2022 Q3- Q4**
 
-* Compass APY V2.0 : integrate deep research, security audit for specified protocols
-* Compass APY V3.0 : integrate how-to manuals for specified protocols
-* Compass Stats V3.0: support Dashboard
-* Community co-work: encourage DAO to contribute in the products and contents
-* Smart Fund Manager
-* DAO governance
+* Launch Compass Stats V3.0: support customized Dashboard
+* New features and updates: Dark mode, API, SDK, historical data, etc
+* Design & implement incentive model for community work: encourage DAO members to contribute in the products and contents

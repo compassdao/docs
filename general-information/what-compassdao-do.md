@@ -2,13 +2,10 @@
 
 We now have some MVP products:
 
-* Compass APY:&#x20;
-  * Fast and accurate APY info on the widest variety of DeFi protocols.
-  * In-depth research and most up-to-date tutorials for trending protocols (coming soon).
-  * Risk analysis by experienced auditors (coming soon).
 * Compass Stats:&#x20;
-  * Customizable scripts to streamline your on-chain data.
+  * Customizable JS scripts to streamline your multi-chain data, easy to use for most Web 3 Devs.
   * Intuitive and customizable alerts for on-chain monitoring, easy to use for none-coding users.
-  * Customizable dashboard (coming soon).
+  * Discover the community’s work, use or clone them, share your creativity with the community.
+  * Customizable dashboard and more features (coming soon).
 
-You can use them as consumer users, send any suggestions or feedback to contact@compassdao.com, or contribute your code in our Github: [https://github.com/orgs/compassdao](https://github.com/orgs/compassdao/)
+Send any suggestions or feedback to [contact@compassdao.com](https://tomail:contact@compassdao.com)

@@ -13,20 +13,15 @@
 * [Roadmap](general-information/roadmap.md)
 * [Tokenomics?](general-information/tokenomics.md)
 
-## How-To Guides
+## How to use
 
-* [Compass APY](how-to-guides/contributing-compass/README.md)
-  * [Devs Documentation](how-to-guides/contributing-compass/developer.md)
-
-***
-
-* [Compass Stats](compass-stats/README.md)
-  * [Devs Documentation](compass-stats/devs-documentation.md)
-  * [Usecase Scenarios](compass-stats/usecase-scenarios/README.md)
-    * [Get the balance of an address](compass-stats/usecase-scenarios/get-the-balance-of-an-address.md)
-    * [Monitoring the proportion of two tokens in a liquidity pool](compass-stats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
-    * [Monitoring large withdrawals from a pool on Convex](compass-stats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
-  * [Setting Up Notifications](compass-stats/setting-up-notifications.md)
+* [Compass Stats](how-to-use/compass-stats/README.md)
+  * [Devs Documentation](how-to-use/compass-stats/devs-documentation.md)
+  * [Usecase Scenarios](how-to-use/compass-stats/usecase-scenarios/README.md)
+    * [Get the balance of an address](how-to-use/compass-stats/usecase-scenarios/get-the-balance-of-an-address.md)
+    * [Monitoring the proportion of two tokens in a liquidity pool](how-to-use/compass-stats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
+    * [Monitoring large withdrawals from a pool on Convex](how-to-use/compass-stats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
+  * [Setting Up Notifications](how-to-use/compass-stats/setting-up-notifications.md)
 
 ## FAQ
 
