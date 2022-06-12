@@ -1,3 +1,3 @@
-# Welcome to CompassDAO
+# Welcome to compassDAO
 
-Hello frens, this is your info source for CompassDAO.
+Hello frens, this is your info source for compassDAO.

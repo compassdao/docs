@@ -1,8 +1,8 @@
-# Getting started with Compass
+# Getting started
 
 We now have some MVP products:
 
-* Compass Stats:&#x20;
+* compassStats:&#x20;
   * Customizable JS scripts to streamline your multi-chain data, easy to use for most Web 3 Devs.
   * Intuitive and customizable alerts for on-chain monitoring, easy to use for none-coding users.
   * Discover the community’s work, use or clone them, share your creativity with the community.
