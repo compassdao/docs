@@ -17,12 +17,12 @@
 
 * [compassStats](how-to-use/compassstats/README.md)
   * [For All Users](how-to-use/compassstats/for-all-users/README.md)
-    * [Setting Up Notifications](how-to-use/compassstats/for-all-users/setting-up-notifications.md)
-  * [For Devs (Data Contributor)](how-to-use/compassstats/for-devs-data-contributor/README.md)
-    * [Usecase Scenarios](how-to-use/compassstats/for-devs-data-contributor/usecase-scenarios/README.md)
-      * [Get the balance of an address](how-to-use/compassstats/for-devs-data-contributor/usecase-scenarios/get-the-balance-of-an-address.md)
-      * [Monitoring the proportion of two tokens in a liquidity pool](how-to-use/compassstats/for-devs-data-contributor/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
-      * [Monitoring large withdrawals from a pool on Convex](how-to-use/compassstats/for-devs-data-contributor/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
+    * [Setting Up Notifiers(Slack, Twitter)](how-to-use/compassstats/for-all-users/setting-up-notifiers-slack-twitter.md)
+  * [For Devs (Data Contributor)](how-to-use/compassstats/devs-documentation.md)
+    * [Usecase Scenarios](how-to-use/compassstats/usecase-scenarios/README.md)
+      * [Get the balance of an address](how-to-use/compassstats/usecase-scenarios/get-the-balance-of-an-address.md)
+      * [Monitoring the proportion of two tokens in a liquidity pool](how-to-use/compassstats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
+      * [Monitoring large withdrawals from a pool on Convex](how-to-use/compassstats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
 
 ## FAQ
 
