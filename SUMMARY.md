@@ -17,7 +17,7 @@
 
 * [compassStats](how-to-use/compassstats/README.md)
   * [For All Users](how-to-use/compassstats/for-all-users/README.md)
-    * [Setting Up Notifiers(Slack, Twitter)](how-to-use/compassstats/for-all-users/setting-up-notifiers-slack-twitter.md)
+    * [Setting Up Notifiers](how-to-use/compassstats/for-all-users/setting-up-notifiers.md)
   * [For Devs (Data Contributor)](how-to-use/compassstats/devs-documentation.md)
     * [Usecase Scenarios](how-to-use/compassstats/usecase-scenarios/README.md)
       * [Get the balance of an address](how-to-use/compassstats/usecase-scenarios/get-the-balance-of-an-address.md)
