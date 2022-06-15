@@ -17,7 +17,7 @@
 
 * [compassStats](how-to-use/compassstats/README.md)
   * [For All Users](how-to-use/compassstats/for-all-users/README.md)
-    * [Set Up Notifiers](how-to-use/compassstats/for-all-users/set-up-notifiers.md)
+    * [Set Up Notifiers](how-to-use/compassstats/for-all-users/setting-up-notifiers-slack-twitter.md)
     * [Schedule Tasks](how-to-use/compassstats/for-all-users/schedule-tasks.md)
     * [Set Alerts](how-to-use/compassstats/for-all-users/set-alerts.md)
   * [For Devs (Data Contributor)](how-to-use/compassstats/devs-documentation.md)
