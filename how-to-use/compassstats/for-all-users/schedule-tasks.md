@@ -4,11 +4,11 @@ _**You can schedule a routine task to run your script, the result can be used in
 
 _**1.Go to "My Space - Tasks"  , click on "+Add New" to add a new Task.**_
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
 _**2. Name the Task and select the related Script**_
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (7).png>)
 
 
 
