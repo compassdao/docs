@@ -1,8 +1,14 @@
-# Devs Documentation
+---
+description: This doc is for the users who are able to write JS
+---
+
+# For Devs (Data Contributor)
+
+
 
 * evm.getProvider(network):&#x20;
 
-Provider network: Ethereum, Ropsten, BSC, Polygon, FTM, AVAX, Optimism, Arbitrum, Moonriver, Harmony&#x20;
+sdk.getDefaultProvider(network: "ethereum" | "ropsten" | "bsc" | "polygon" | "ftm" | "avax" | "optimism" | "arbitrum" | "moonriver" | "harmony")
 
 \[Provider] [https://docs.ethers.io/v5/api/providers/provider/](https://docs.ethers.io/v5/api/providers/provider/)
 
