@@ -11,7 +11,6 @@
 * [Why compassDAO?](general-information/why-compassdao.md)
 * [What we offer?](general-information/what-compassdao-do.md)
 * [Roadmap](general-information/roadmap.md)
-* [Tokenomics?](general-information/tokenomics.md)
 
 ## How to use
 
