@@ -1,6 +1,6 @@
 # Set Up Notifiers
 
-_**We now support Slack & Twitter as your Notifier to get the alert messages, more channels will be added in the future, such as Telegram, Discord, Webhook, etc. Tell us what you want here:**_ [CompassStats feedback](https://forms.gle/LkkkLHUoZj7q2CWr9)
+_**We now support Slack & Twitter as your Notifier to get the alert messages, more channels will be added in the future, such as Telegram, Discord, Webhook, etc. Tell us what you want here:**_ [CompassStats feedback](https://forms.gle/FRWNXLsm4Ln27SSSA)
 
 _**1.Go to "My Space - Notifiers"  , click on "+Add New" to add a new Notifier.**_
 
