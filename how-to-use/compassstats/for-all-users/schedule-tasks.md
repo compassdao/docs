@@ -8,7 +8,7 @@ _**1.Go to "My Space - Tasks"  , click on "+Add New" to add a new Task.**_
 
 _**2. Name the Task and select the related Script**_
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 
 

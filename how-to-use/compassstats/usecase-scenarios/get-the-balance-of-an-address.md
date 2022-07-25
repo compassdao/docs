@@ -31,6 +31,8 @@ export const run = async ({ address }: Record<string, string>) => {
 };
 ```
 
-__
+_Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](https://compassdao.com/scripts/0xb41154b301f7437c)__
 
 _Once the script is saved, users can fill in the parameters to run the script._&#x20;
+
+![](<../../../.gitbook/assets/image (7).png>)
