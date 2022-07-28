@@ -1,10 +1,12 @@
 # Get the balance of an address
 
-_The default Sample Script is a simple script to get the balance of an address, users can edit the script and run or save it._&#x20;
+The default Sample Script is a simple script to get the balance of an address, users can edit the script and run or save it.&#x20;
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../../.gitbook/assets/image (5).png>)
 
-_the script code is as following:_
+_Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](https://compassdao.com/scripts/0xb41154b301f7437c)__
+
+The script code is as following:
 
 ```
 export const name = "My Awesome Script";
@@ -31,8 +33,6 @@ export const run = async ({ address }: Record<string, string>) => {
 };
 ```
 
-_Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](https://compassdao.com/scripts/0xb41154b301f7437c)__
+Once the script is saved, users can fill in the parameters to run the script.&#x20;
 
-_Once the script is saved, users can fill in the parameters to run the script._&#x20;
-
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../../.gitbook/assets/image (7).png>)

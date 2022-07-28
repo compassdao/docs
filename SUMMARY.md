@@ -16,14 +16,15 @@
 
 * [compassStats](how-to-use/compassstats/README.md)
   * [For All Users](how-to-use/compassstats/for-all-users/README.md)
+    * [Connect Wallet](how-to-use/compassstats/for-all-users/connect-wallet.md)
     * [Set Up Notifiers](how-to-use/compassstats/for-all-users/setting-up-notifiers-slack-twitter.md)
     * [Schedule Tasks](how-to-use/compassstats/for-all-users/schedule-tasks.md)
     * [Set Alerts](how-to-use/compassstats/for-all-users/set-alerts.md)
   * [For Devs (Data Contributor)](how-to-use/compassstats/devs-documentation.md)
-    * [Usecase Scenarios](how-to-use/compassstats/usecase-scenarios/README.md)
-      * [Get the balance of an address](how-to-use/compassstats/usecase-scenarios/get-the-balance-of-an-address.md)
-      * [Monitoring the proportion of two tokens in a liquidity pool](how-to-use/compassstats/usecase-scenarios/monitoring-the-proportion-of-two-tokens-in-a-liquidity-pool.md)
-      * [Monitoring large withdrawals from a pool on Convex](how-to-use/compassstats/usecase-scenarios/monitoring-large-withdrawals-from-a-pool-on-convex.md)
+    * [Best Practices](how-to-use/compassstats/for-devs-data-contributor/best-practices/README.md)
+      * [Get the balance of an address](how-to-use/compassstats/for-devs-data-contributor/best-practices/get-the-balance-of-an-address.md)
+      * [Curve 3pool Proportion Monitoring](how-to-use/compassstats/for-devs-data-contributor/best-practices/curve-3pool-proportion-monitoring.md)
+      * [Curve 3pool Big Withdrawn Monitoring](how-to-use/compassstats/for-devs-data-contributor/best-practices/curve-3pool-big-withdrawn-monitoring.md)
 
 ## FAQ
 
