@@ -15,5 +15,6 @@
 **2022 Q3- Q4**
 
 * Launch compassStats V3.0: support customized Dashboard
-* New features and updates: Dark mode, API, SDK, historical data, etc
+* New features and updates of compassStats: Dark mode, API, SDK, historical data, etc
+* Smart contract platform to manage on-chain assets
 * Design & implement incentive model for community work: encourage DAO members to contribute in the products and contents
