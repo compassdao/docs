@@ -21,6 +21,7 @@
     * [Schedule Tasks](how-to-use/compassstats/for-all-users/schedule-tasks.md)
     * [Set Alerts](how-to-use/compassstats/for-all-users/set-alerts.md)
   * [For Devs (Data Contributor)](how-to-use/compassstats/devs-documentation.md)
+    * [API](how-to-use/compassstats/devs-documentation/api.md)
     * [Best Practices](how-to-use/compassstats/for-devs-data-contributor/best-practices/README.md)
       * [Get the balance of an address](how-to-use/compassstats/for-devs-data-contributor/best-practices/get-the-balance-of-an-address.md)
       * [Curve 3pool Proportion Monitoring](how-to-use/compassstats/for-devs-data-contributor/best-practices/curve-3pool-proportion-monitoring.md)
