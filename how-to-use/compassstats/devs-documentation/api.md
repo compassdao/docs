@@ -1,5 +1,7 @@
 # API
 
+The scripts can be used as [Tasks](../for-all-users/schedule-tasks.md) and [Alerts](../for-all-users/set-alerts.md), you can also use API to integrate the script result in your service. &#x20;
+
 ## Get Script: /scripts/${scriptId}
 
 ```shell
