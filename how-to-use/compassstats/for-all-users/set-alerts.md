@@ -4,7 +4,7 @@ Several Alerts with any conditions can be set after you have a script run as a t
 
 _**1.Go to "My Space - Tasks "  , click on any item to see a scheduled Task, you will get the latest 30 times results. Click on "+Add New" to add a new Alert here.**_
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (3).png>)
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
@@ -18,4 +18,4 @@ You can also enter the key of your wanted value _**if you have the result as "Ob
 
 See the Twitter Bot sample here: [https://twitter.com/compassBots](https://twitter.com/compassBots)
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (32).png>)

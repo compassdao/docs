@@ -2,7 +2,7 @@
 
 Here we take Curve 3pool as an example to monitor the proportion of  USDT:
 
-![](<../../../../.gitbook/assets/image (12).png>)
+![](<../../../../.gitbook/assets/image (12) (1).png>)
 
 _Check the script here:_ [_https://compassdao.com/scripts/0xf9c4e606cb0c497c_](https://compassdao.com/scripts/0xf9c4e606cb0c497c)__
 
@@ -102,7 +102,7 @@ Once the Script is created, it can be saved and run, the result is as below (arr
 
 Now you can [schedule a task](../../for-all-users/schedule-tasks.md) for the script:
 
-![](<../../../../.gitbook/assets/image (11).png>)
+![](<../../../../.gitbook/assets/image (11) (1).png>)
 
 Then [set the alert](../../for-all-users/set-alerts.md) to notify my Twitter bot:
 
@@ -110,7 +110,7 @@ _So the alert will notify me when the amount is above 1,500,000, and some varian
 
 > 👀 A big withdraw {amount} {symbol} from @CurveFinance 3pool: https://etherscan.io/tx/{transactionHash} Customize your own monitoring here: https://compassdao.com/scripts/0xf9c4e606cb0c497c. Powered by @compassDAO
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../../.gitbook/assets/image (18) (1).png>)
 
 Now you get your perfect Twitter bot, by assembling the message with Etherscan prefix, you can even link your auto Tweet with the Etherscan link:
 

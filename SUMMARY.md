@@ -26,6 +26,14 @@
       * [Get the balance of an address](how-to-use/compassstats/for-devs-data-contributor/best-practices/get-the-balance-of-an-address.md)
       * [Curve 3pool Proportion Monitoring](how-to-use/compassstats/for-devs-data-contributor/best-practices/curve-3pool-proportion-monitoring.md)
       * [Curve 3pool Big Withdrawn Monitoring](how-to-use/compassstats/for-devs-data-contributor/best-practices/curve-3pool-big-withdrawn-monitoring.md)
+* [compassSafe](how-to-use/compasssafe/README.md)
+  * [Get Started](how-to-use/compasssafe/get-started.md)
+  * [Set Up Safe Module](how-to-use/compasssafe/set-up-safe-module.md)
+  * [Set Role](how-to-use/compasssafe/set-role.md)
+  * [Set Member](how-to-use/compasssafe/set-member.md)
+  * [Interact With Dapps](how-to-use/compasssafe/interact-with-dapps.md)
+  * [Disable Safe Module](how-to-use/compasssafe/disable-safe-module.md)
+  * [Best Practices](how-to-use/compasssafe/best-practices.md)
 
 ## FAQ
 

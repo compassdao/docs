@@ -8,4 +8,4 @@ You can view the community scripts without any authentication, but once you want
 
 Choose the wallet you're using, sign the pop-up message, now you're here!
 
-![](<../../../.gitbook/assets/image (10).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)

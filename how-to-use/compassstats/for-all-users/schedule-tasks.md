@@ -4,7 +4,7 @@ You can schedule a routine task to run your script, the result can be used in Al
 
 _**1.Go to "My Space - Tasks"  , click on "+Add New" to add a new Task.**_
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 _**2. Name the Task and select the related Script**_
 
@@ -12,7 +12,7 @@ _**2. Name the Task and select the related Script**_
 
 Have no script yet? See [Dev docs](../devs-documentation.md) to create your own scripts. If you're not a developer, no problem, **clone** any script you like:&#x20;
 
-![](<../../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9) (1).png>)
 
 
 
