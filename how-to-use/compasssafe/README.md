@@ -1,10 +1,10 @@
 # compassSafe
 
-compassStats is an&#x20;
+compassSafe is a protocol based on [Gnosis Safe](https://help.gnosis-safe.io/en/articles/3876456-what-is-gnosis-safe). As the most popular smart contract wallet, Safe supports standard multi-signature, and supports their users to enable advanced access-control logic with [Module](https://help.gnosis-safe.io/en/articles/4934378-what-is-a-module).
 
-&#x20;open data platform to create and share on-chain data analytics with javascript. Developers can customize preferred on-chain data using javascript for encapsulation, and everyone can consume the data. Currently, we support data monitoring and alerts, more features like API, SDK, Dashboard are on the way.
 
-Note: The product’s an early stage, we are currently working hard on updating the product and implementing more features. Please feel free to leave any suggestions and feedback in the Google Form here: [CompassStats feedback](https://forms.gle/FRWNXLsm4Ln27SSSA)
 
-## Try the product here: [https://compassdao.com](https://compassdao.com)
+Note: The product’s an early stage, we are currently working hard on improving the product and implementing more features. Please feel free to leave any suggestions and feedback in the Google Form here:&#x20;
+
+## The app link:&#x20;
 

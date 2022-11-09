@@ -14,11 +14,11 @@ _**2.Then you'll get a pop-up window with a QR code, there's a line "Copy to cli
 
 _**3.Back to our app, go to "WALLET CONNECT" tab, paste the code you just copied in the input field.**_
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 _**4.Now the app is connected, you can initiate any transaction in Dapps (e.g. Etherscan), and you'll get the request here.**_
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 _**5.Check carefully with all the details of the transaction, click on "CONFIRM" to sign it with your metamask.**_
 
