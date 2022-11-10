@@ -10,6 +10,8 @@ Then the functions of the contract will be listed automatically (the contract mu
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
+_****_
+
 _**2.Once you confirm, you'll need to sign a transaction from the Safe owners.**_
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>

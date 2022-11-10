@@ -1,10 +1,8 @@
 # compassSafe
 
-compassSafe is a protocol based on [Gnosis Safe](https://help.gnosis-safe.io/en/articles/3876456-what-is-gnosis-safe). As the most popular smart contract wallet, Safe supports standard multi-signature, and supports their users to enable advanced access-control logic with [Module](https://help.gnosis-safe.io/en/articles/4934378-what-is-a-module).
+compassSafe is an advanced access-control protocol based on [Gnosis Safe](https://help.gnosis-safe.io/en/articles/3876456-what-is-gnosis-safe). As the most popular smart contract wallet, Gnosis Safe supports only standard multi-signature, but Safe supports users to enable advanced logic with [Module](https://help.gnosis-safe.io/en/articles/4934378-what-is-a-module). We build the flexible module and user-friendly GUI for endusers to enhance their use with Gnosis Safe.
 
+****
 
-
-Note: The product’s an early stage, we are currently working hard on improving the product and implementing more features. Please feel free to leave any suggestions and feedback in the Google Form here:&#x20;
-
-## The app link:&#x20;
+Note: The product is in early stage, please use with your attention (we're cooperating with 3rd-party for security auditing). Please feel free to leave any suggestions and feedback in the Google Form here: [compassSafe feedback](https://forms.gle/FD7dHsrYGLNaGN7T7)
 

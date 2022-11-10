@@ -8,6 +8,8 @@ Check the transaction and sign it with your Metamask. The transaction will be se
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
+_****_
+
 _**2.Enable Module: the window will be poped up automatically once the last step finished. You can also enter your Safe module manually.**_
 
 Note: Check the module address to ensure it's your safe module. (you can compare with the last transaction log)
