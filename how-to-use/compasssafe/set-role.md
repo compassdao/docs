@@ -20,5 +20,5 @@ Then you can find the roles in the list, click on "View" to view the details of 
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-Note: We recommend you to specify the functions for each role, later you can combine them in [Member](set-member.md).
+Note: We recommend you to specify the functions for each role, later you can combine them in [MEMBERS](set-member.md) tab.
 

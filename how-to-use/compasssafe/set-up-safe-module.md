@@ -16,10 +16,12 @@ Note: Check the module address to ensure it's your safe module. (you can compare
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Now the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [SetMember](set-member.md).
+Now the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [Set Member](set-member.md).
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 Note: It's very danger to enable more than one module for each Safe. Please do not create duplicate modules or enable more than one module for the same Safe.
+
+Check the modules you enabled in Safe App Settings - Modules:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Check the module enabled here</p></figcaption></figure>
