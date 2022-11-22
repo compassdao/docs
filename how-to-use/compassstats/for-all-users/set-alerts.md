@@ -6,11 +6,11 @@ _**1.Go to "My Space - Tasks "  , click on any item to see a scheduled Task, you
 
 ![](<../../../.gitbook/assets/image (4) (3).png>)
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8) (1).png>)
 
 _**2.Define the condition of the Alert here.**_ If the result of your script is a single value, you can define the condition with the default "value" field directly. &#x20;
 
-![](<../../../.gitbook/assets/image (4) (2).png>)
+![](<../../../.gitbook/assets/image (4) (2) (1).png>)
 
 You can also enter the key of your wanted value _**if you have the result as "Object"**_.  And you can set flexible alert message with the results.
 

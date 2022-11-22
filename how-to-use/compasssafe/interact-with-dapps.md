@@ -18,7 +18,7 @@ _****_
 
 _**3.Back to our app, go to "WALLET CONNECT" tab, paste the code you just copied in the input field.**_
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 _****_
 

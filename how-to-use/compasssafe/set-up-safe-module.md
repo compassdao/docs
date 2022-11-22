@@ -14,7 +14,7 @@ _**2.Enable Module: the window will be poped up automatically once the last step
 
 Note: Check the module address to ensure it's your safe module. (you can compare with the last transaction log)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [Set Member](set-member.md).
 
@@ -24,4 +24,4 @@ Note: It's very danger to enable more than one module for each Safe. Please do n
 
 Check the modules you enabled in Safe App Settings - Modules:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Check the module enabled here</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Check the module enabled here</p></figcaption></figure>

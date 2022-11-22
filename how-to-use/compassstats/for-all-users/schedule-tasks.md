@@ -12,7 +12,7 @@ _**2. Name the Task and select the related Script**_
 
 Have no script yet? See [Dev docs](../devs-documentation.md) to create your own scripts. If you're not a developer, no problem, **clone** any script you like:&#x20;
 
-![](<../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 
 

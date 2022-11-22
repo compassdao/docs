@@ -33,7 +33,9 @@
   * [Set Member](how-to-use/compasssafe/set-member.md)
   * [Interact With Dapps](how-to-use/compasssafe/interact-with-dapps.md)
   * [Disable Safe Module](how-to-use/compasssafe/disable-safe-module.md)
-  * [Best Practices](how-to-use/compasssafe/best-practices.md)
+  * [Best Practices](how-to-use/compasssafe/best-practices/README.md)
+    * [Aave (Lending)](how-to-use/compasssafe/best-practices/aave-lending.md)
+    * [Page 1](how-to-use/compasssafe/best-practices/page-1.md)
 
 ## FAQ
 
