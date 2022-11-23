@@ -13,11 +13,11 @@ Here we take [Aave](https://app.aave.com/) as a samlpe to show you how you can s
 
         `Polygon:` [`0xAeBF56223F044a73A513FAD7E148A9075227eD9b`](https://polygonscan.com/address/0xAeBF56223F044a73A513FAD7E148A9075227eD9b)(WrappedTokenGatewayV2)
 
-    <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
     * Select the roles and fill the parameters (Notice: the 2 parameters marked below must be the **Safe Address** otherwise the member with this role is able to transfer your assets away by abusing the functions).
 
-    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 2. Repay ERC20 & Withdraw ERC20
    *   Enter the role name and target contract address.
 
@@ -25,7 +25,7 @@ Here we take [Aave](https://app.aave.com/) as a samlpe to show you how you can s
 
 
 
-       <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
    * Select the roles and fill the parameters (Notice: the 2 parameters marked below must be the **Safe Address** otherwise the member with this role is able to transfer your assets away by abusing the functions).

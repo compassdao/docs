@@ -4,7 +4,7 @@ We now support Slack & Twitter as your Notifier to get the alert messages, more 
 
 _**1.Go to "My Space - Notifiers"  , click on "+Add New" to add a new Notifier.**_
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (2).png>)
 
 _**2. Name the Notifier, and select the channel type**_
 
@@ -16,7 +16,7 @@ _**2.1 If you select Twitter as your notifier,**_ just click on the button "Conn
 
 &#x20;
 
-![](<../../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 _**2.1 If you select Slack as your notifier,**_ follow the guide below to get your Slack Webhook URL and enter it here.
 
