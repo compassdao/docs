@@ -16,7 +16,7 @@ _**2.1 If you select Twitter as your notifier,**_ just click on the button "Conn
 
 &#x20;
 
-![](<../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1).png>)
 
 _**2.1 If you select Slack as your notifier,**_ follow the guide below to get your Slack Webhook URL and enter it here.
 
