@@ -7,7 +7,7 @@ In lending protocols like Aave, you can set a member with the following roles, s
 
 Here we take [Aave](https://app.aave.com/) as a samlpe to show you how you can set the roles:
 
-1.  Repay ETH & Withdraw ETH&#x20;
+1.  _**Repay ETH & Withdraw ETH**_&#x20;
 
     *   Enter the role name and target contract address (for native tokens like ETH/Matic, the gateway contract is used as the target contract).
 
@@ -18,7 +18,7 @@ Here we take [Aave](https://app.aave.com/) as a samlpe to show you how you can s
     * Select the roles and fill the parameters (Notice: the 2 parameters marked below must be the **Safe Address** otherwise the member with this role is able to transfer your assets away by abusing the functions).
 
     <figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
-2. Repay ERC20 & Withdraw ERC20
+2. _**Repay ERC20 & Withdraw ERC20**_
    *   Enter the role name and target contract address.
 
        `Polygon:` [0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf (](https://polygonscan.com/address/0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf)Aave: Lending Pool V2)
