@@ -35,6 +35,8 @@
   * [Disable Safe Module](how-to-use/compasssafe/disable-safe-module.md)
   * [Best Practices](how-to-use/compasssafe/best-practices/README.md)
     * [DeFi - Lending (Aave)](how-to-use/compasssafe/best-practices/aave-lending.md)
+    * [DeFi - Dex (Uniswap V3)](how-to-use/compasssafe/best-practices/defi-dex-uniswap-v3.md)
+  * [FAQ](how-to-use/compasssafe/faq.md)
 
 ## FAQ
 
