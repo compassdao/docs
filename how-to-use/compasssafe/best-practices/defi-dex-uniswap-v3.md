@@ -5,12 +5,13 @@ In Dex protocols like Uniswap, you can set a member with the following roles, so
 **For Liquidity Providers:**
 
 * **Collect Fees** : can collect fees from an existed position to the specified recipient
-* **Decrease Liquidity (only ERC20)**: can decrease/remove liquidity from an existed ERC20 position (Normally it collects the fees at the same time so you also need the **Collect Fees** permission)
-* **Decrease Liquidity (ETH and ERC20)**: can decrease/remove liquidity from an existed  position and get native token(e.g.ETH) directly
+* **Decrease Liquidity (only ERC20)**: can decrease/remove liquidity from an existed ERC20 position (Normally it collects the fees at the same time so the **Collect Fees** permission is included)
+* **Decrease Liquidity (ETH and ERC20)**: can decrease/remove liquidity from an existed  position and get native token(e.g.ETH) directly (**Collect Fees** permission is included)
 * **Increase Liquidity (only ERC20)**: can add liquidity to an existed position with ERC20 token pairs
 * **Increase Liquidity (ETH and ERC20)**: can add liquidity to an existed position with native token and ERC20 token pairs
-* **Mint (only ERC20)** : can create a new position pool with ERC20 token pairs
-* **Mint (ETH and ERC20)** : can create a new position pool with native token and ERC20 token pairs
+* **Mint (only ERC20)** : can create a new position pool with ERC20 token pairs (**Increase Liquidity** permission is included)
+* **Mint (ETH and ERC20)** : can create a new position pool with native token and ERC20 token pairs (**Increase Liquidity** permission is included)
+* **CreateAndInitializePoolIfNecessary (NOT RECOMMENDED)**:can initiate an entire new position pool (as it's a high-risk operation, we don't recommend you grant the permission to a single member, if you do have the need, initiate the pool with multi-sig first, and the member can mint\&increase liquidity later)
 
 **For Traders** (**NOT RECOMMENDED** as the trading activities are normally too flexible like the dynamic paths) :
 
