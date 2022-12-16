@@ -84,7 +84,7 @@ _So the alert will notify me when the change is above 2%, and some variants from
 
 Now you get your perfect Twitter bot:
 
-![https://twitter.com/compassBots/](<../../../../.gitbook/assets/image (3) (1).png>)
+![https://twitter.com/compassBots/](<../../../../.gitbook/assets/image (3) (1) (2).png>)
 
 
 

@@ -35,4 +35,4 @@ export const run = async ({ address }: Record<string, string>) => {
 
 Once the script is saved, users can fill in the parameters to run the script.&#x20;
 
-![](<../../../../.gitbook/assets/image (7).png>)
+![](<../../../../.gitbook/assets/image (7) (2).png>)
