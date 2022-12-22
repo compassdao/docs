@@ -45,7 +45,11 @@ Enter the role name and target contract address.
     * Select the roles, fill the parameters if you need.
 
     <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
-5. **Increase Liquidity (ETH and ERC20)**
+5.  **Increase Liquidity (ETH and ERC20)**
+
+    * If you're using both native token(e.g. ETH) and ERC20 tokens, besides the roles above for **Increase Liquidity (only ERC20)**, you may need addtional roles like below:
+
+
 6.  **Mint (only ERC20)**&#x20;
 
     * Select the roles and fill the parameters (Notice: define the token0 and token1 address so the member can only initialize liquidity pool between the specified token pairs.  Define your **Safe Address** as the recipient address otherwise the member with this role is able to transfer your assets away by abusing the functions).
