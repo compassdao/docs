@@ -4,13 +4,5 @@ compassSafe is an advanced access-control protocol based on [Gnosis Safe](https:
 
 
 
-**For institutions**, image you're owner of an organization or fund, you have to keep the private key by so&#x20;
-
-
-
-**For DAOs**,&#x20;
-
-****
-
 Note: The product is in early stage, please use with your attention (we're cooperating with 3rd-party for security auditing). Please feel free to leave any suggestions and feedback in the Google Form here: [compassSafe feedback](https://forms.gle/FD7dHsrYGLNaGN7T7)
 

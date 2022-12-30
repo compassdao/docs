@@ -20,4 +20,4 @@ _****_
 
 _**3.You may edit/delete the members anytime you want (you'll need to sign a transaction with Safe owners when you do it).**_
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
