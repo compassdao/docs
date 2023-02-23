@@ -36,6 +36,7 @@
   * [Best Practices](how-to-use/compasssafe/best-practices/README.md)
     * [DeFi - Lending (Aave)](how-to-use/compasssafe/best-practices/aave-lending.md)
     * [DeFi - Dex (Uniswap V3)](how-to-use/compasssafe/best-practices/defi-dex-uniswap-v3.md)
+  * [Versions](how-to-use/compasssafe/versions.md)
   * [FAQ](how-to-use/compasssafe/faq.md)
 
 ## FAQ
