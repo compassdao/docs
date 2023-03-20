@@ -10,7 +10,6 @@
 * [Value](general-information/value.md)
 * [Why compassDAO?](general-information/why-compassdao.md)
 * [What we offer?](general-information/what-compassdao-do.md)
-* [Roadmap](general-information/roadmap.md)
 
 ## How to use
 

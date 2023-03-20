@@ -1,3 +1,3 @@
 # Vision
 
-Crypto is the future of the world’s open finance. We will contribute and accelerate the spread of it. By gathering the talent people and creating various tools and product, we act as the compass for the crypto investors.
+The vision of compassDAO is to promote the development of decentralized finance (DeFi) by providing individuals with access to powerful decentralized tools and services to help them navigate the cryptocurrency market and make informed investment decisions.

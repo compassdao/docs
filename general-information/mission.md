@@ -1,9 +1,9 @@
 # Mission
 
-We **gather** the most talented people in **DAO**.&#x20;
+We **gather** the most talented people in **DAO**.
 
-We **build** information **aggregation** platforms.&#x20;
+We **build** decentralized **tools and services**.
 
-We **connect** the **assets and capital**.&#x20;
+We **connect** the **assets and capital**.
 
-We are the **Compass** for **crypto players**.
+We **act** as the **compass** for **crypto players**.
