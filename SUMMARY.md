@@ -35,11 +35,11 @@
   * [Best Practices](how-to-use/compasssafe/best-practices/README.md)
     * [DeFi - Lending (Aave)](how-to-use/compasssafe/best-practices/aave-lending.md)
     * [DeFi - Dex (Uniswap V3)](how-to-use/compasssafe/best-practices/defi-dex-uniswap-v3.md)
+  * [For Devs](how-to-use/compasssafe/for-devs/README.md)
+    * [execTransactionFromModule](how-to-use/compasssafe/for-devs/exectransactionfrommodule.md)
+    * [execTransactionsFromModule](how-to-use/compasssafe/for-devs/exectransactionsfrommodule.md)
   * [Versions](how-to-use/compasssafe/versions.md)
   * [FAQ](how-to-use/compasssafe/faq.md)
-  * [Technical References](how-to-use/compasssafe/technical-references/README.md)
-    * [execTransactionFromModule](how-to-use/compasssafe/technical-references/exectransactionfrommodule.md)
-    * [execTransactionsFromModule](how-to-use/compasssafe/technical-references/exectransactionsfrommodule.md)
 
 ## FAQ
 
