@@ -1,15 +1,4 @@
-# Compass Safe Module
-
-## Overview
-
-**Compass Safe Module** 是一个作为 **Gnosis Safe** 的 Module 存在的，用于管理权限的智能合约。
-
-在 **Compass Safe Module** 的使用流程中，我们使用到了如下几个由 **Gnosis Safe** 提供的能力
-
-* **Multisig:** 作为多签钱包的基础功能，允许 Owner 进行多签
-* **Execute:** 在对一个 Transaction 多签完成后，允许执行该 Transaction
-* **Customized Module: Gnosis Safe** 提供 [Module](https://safe-docs.dev.gnosisdev.com/safe/docs/contracts\_details/#modules) 功能，允许用户通过绑定的 Customized Module 合约执行 Transaction，绑定/解绑 Module 合约都需要多签进行。<mark style="color:red;">这是一步危险操作，请对任何绑定 Module 合约的请求加以验证，确保绑定的 Module 合约是一个安全的合约</mark>
-* **Execute from Module: Gnosis Safe** 合约提供了 [execTransactionFromModule](https://docs.gnosis-safe.io/contracts/modules-1) 的合约接口，我们可以在 Customized Module 合约中调用该合约接口来执行 Transaction，该接口会验证调用方（即 Customized Module 合约）是否在 **Gnosis Safe** 中绑定过，如果没有绑定过，会拒绝执行
+# Technical References
 
 ## Preparation
 
