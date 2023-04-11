@@ -37,6 +37,9 @@
     * [DeFi - Dex (Uniswap V3)](how-to-use/compasssafe/best-practices/defi-dex-uniswap-v3.md)
   * [Versions](how-to-use/compasssafe/versions.md)
   * [FAQ](how-to-use/compasssafe/faq.md)
+  * [Compass Safe Module](how-to-use/compasssafe/compass-safe-module/README.md)
+    * [execTransactionFromModule](how-to-use/compasssafe/compass-safe-module/exectransactionfrommodule.md)
+    * [execTransactionsFromModule](how-to-use/compasssafe/compass-safe-module/exectransactionsfrommodule.md)
 
 ## FAQ
 
