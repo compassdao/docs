@@ -6,7 +6,7 @@ First, please make sure you have properly configured the corresponding [member](
 
 The member (program) can interact with the DeFi protocol through the following steps:
 
-1. Prepare the contract method 'data' to be executed with the DeFi Protocol.
+1. Get the data of the original transaction to be executed.
 2. Use 'data' as a parameter, call the Compass Safe Module's `execTransactionFromModule` method or the `execTransactionsFromModule` method.
 3. The Compass Safe Module will automatically check:
    * Whether the current user is a Member

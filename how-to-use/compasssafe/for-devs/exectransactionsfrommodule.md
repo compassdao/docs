@@ -32,7 +32,7 @@ const senderAddress = 'YOUR_MEMBER_ADDRESS'
 const privateKey = Buffer.from('YOUR_MEMBER_PRIVATE_KEY', 'hex')
 ```
 
-Execute the `execTransactionFromModule` method of the Compass Safe Module:
+Execute the `execTransactionsFromModule` method of the Compass Safe Module:
 
 ```
 import { AbiItem } from 'web3-utils'
@@ -122,7 +122,7 @@ const execTransactionsFromModule = async (
 }
 ```
 
-Use `execTransactionsFromModule` to call `decreaseLiquidity` and `collect` method
+Use `execTransactionsFromModule` to call `decreaseLiquidity`, `collect`, and `unwrapWETH9` and `sweepToken` method
 
 ```
 const decreaseLiquidity = async () => {

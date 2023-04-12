@@ -32,7 +32,7 @@ const senderAddress = 'YOUR_MEMBER_ADDRESS'
 const privateKey = Buffer.from('YOUR_MEMBER_PRIVATE_KEY', 'hex')
 ```
 
-Execute the `execTransactionsFromModule` method of the Compass Safe Module:
+Execute the `execTransactionFromModule` method of the Compass Safe Module:
 
 ```
 import { AbiItem } from 'web3-utils'
