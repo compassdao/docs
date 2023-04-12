@@ -38,6 +38,7 @@ Execute the `execTransactionFromModule` method of the Compass Safe Module:
 import { AbiItem } from 'web3-utils'
 import { TransactionReceipt } from 'web3-core'
 import { Transaction } from 'ethereumjs-tx'
+import { ethers } from 'ethers'
 
 enum Operation {
   None,
@@ -124,69 +125,216 @@ const execTransactionsFromModule = async (
 Use `execTransactionsFromModule` to call `decreaseLiquidity` and `collect` method
 
 ```
-const swapUniToEth = async () => {
-  const WETH = '0xc778417E063141139Fce010982780140Aa0cD5Ab'
-  const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
-  const EMPTY_ADDRESS = '0x0000000000000000000000000000000000000000'
-  const provider = new Web3.providers.HttpProvider(`https://goerli.infura.io/v3/${INFURA_KEY}`)
-  const swapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564'
-  const swapRouterAbi = [{
-    inputs: [{
-      components: [{ internalType: 'address', name: 'tokenIn', type: 'address' }, { internalType: 'address', name: 'tokenOut', type: 'address' }, { internalType: 'uint24', name: 'fee', type: 'uint24' }, { internalType: 'address', name: 'recipient', type: 'address' }, { internalType: 'uint256', name: 'deadline', type: 'uint256' }, { internalType: 'uint256', name: 'amountIn', type: 'uint256' }, { internalType: 'uint256', name: 'amountOutMinimum', type: 'uint256' }, { internalType: 'uint160', name: 'sqrtPriceLimitX96', type: 'uint160' }],
-      internalType: 'struct ISwapRouter.ExactInputSingleParams',
-      name: 'params',
-      type: 'tuple'
-    }],
-    name: 'exactInputSingle',
-    outputs: [{ internalType: 'uint256', name: 'amountOut', type: 'uint256' }],
-    stateMutability: 'payable',
-    type: 'function',
-  }, {
-    inputs: [{ internalType: 'uint256', name: 'amountMinimum', type: 'uint256' }, { internalType: 'address', name: 'recipient', type: 'address' }],
-    name: 'unwrapWETH9',
-    outputs: [],
-    stateMutability: 'payable',
-    type: 'function'
-  }]
-  const web3 = new Web3(provider)
-  const swapRouterContract = new web3.eth.Contract(swapRouterAbi as AbiItem[], swapRouterAddress)
-  const exactInputSingleParams = {
-    tokenIn: UNI,
-    tokenOut: WETH,
-    fee: 10000,
-    recipient: EMPTY_ADDRESS,
-    deadline: 1656576523,
-    amountIn: 100000000000000,
-    amountOutMinimum: 83628712091,
-    sqrtPriceLimitX96: 0,
-  }
-  const exactInputSingleData = swapRouterContract.methods.exactInputSingle(exactInputSingleParams).encodeABI()
-  const unwrapWETH9Params = [
-    83628712091,
-    safeAddress,
-  ]
-  const unwrapWETH9Data = swapRouterContract.methods.unwrapWETH9(unwrapWETH9Params[0], unwrapWETH9Params[1]).encodeABI()
+const decreaseLiquidity = async () => {
+
+    const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
+    const EMPTY_ADDRESS = '0x0000000000000000000000000000000000000000'
+    const uniswapV3NftManagerAddress = '0xc36442b4a4522e871399cd717abdd847ab11fe88'
+
+    const abi = [
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint128",
+                    "name": "liquidity",
+                    "type": "uint128"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1",
+                    "type": "uint256"
+                }
+            ],
+            "name": "DecreaseLiquidity",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Collect",
+            "type": "event"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "amountMinimum",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                }
+            ],
+            "name": "unwrapWETH9",
+            "outputs": [
+
+            ],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amountMinimum",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                }
+            ],
+            "name": "sweepToken",
+            "outputs": [
+
+            ],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+    ]
+    const web3 = new Web3(provider)
+    const  uniswapV3NftManagerContract = new web3.eth.Contract(abi as AbiItem[], uniswapV3NftManagerAddress)
 
 
-  const name = 'YOUR_ROLE_NAME'
-  const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+    const deadline = Math.floor(Date.now() / 1000) + 60 * 10; // 10 minutes from now
+    const decreaseLiquidityParams = [
+        60162,// tokenId The id of the erc721 token
+        4999000099994999900,
+        2499999999999999,
+        0,
+        deadline,
+    ]
+    const decreaseLiquidityData = uniswapV3NftManagerContract.methods['decreaseLiquidity'](
+        decreaseLiquidityParams[0],
+        decreaseLiquidityParams[1],
+        decreaseLiquidityParams[2],
+        decreaseLiquidityParams[3],
+        decreaseLiquidityParams[4],
+    ).encodeABI();
 
-  const calls = [{
-    roleName,
-    to: swapRouterAddress,
-    value: '0',
-    data: exactInputSingleData,
-    operation: Operation.Call,
-  }, {
-    roleName,
-    to: swapRouterAddress,
-    value: '0',
-    data: unwrapWETH9Data,
-    operation: Operation.Call,
-  }]
 
-  const receipt = await execTransactionsFromModule(calls)
-  console.log('receipt: ', receipt)
+    const amount0Max = ethers.utils.parseUnits("100", 18);
+    const amount1Max = ethers.utils.parseUnits("100", 18);
+    const collectParams = [
+        60162,// tokenId The id of the erc721 token
+        EMPTY_ADDRESS,
+        amount0Max,
+        amount1Max,
+    ]
+    const collectData = uniswapV3NftManagerContract.methods['collect'](
+        collectParams[0],
+        collectParams[1],
+        collectParams[2],
+        collectParams[3],
+    ).encodeABI();
+
+
+    const unwrapWETH9Params = [
+        83628712091,
+        safeAddress,
+    ]
+    const unwrapWETH9Data = uniswapV3NftManagerContract.methods['unwrapWETH9'](
+        unwrapWETH9Params[0],
+        unwrapWETH9Params[1]
+    ).encodeABI();
+
+
+    const sweepTokenParams = [
+        UNI,
+        2499999999999999,
+        safeAddress
+    ]
+    const sweepTokenData = uniswapV3NftManagerContract.methods['sweepToken'](
+        sweepTokenParams[0],
+        sweepTokenParams[1],
+        sweepTokenParams[2]
+    ).encodeABI();
+
+
+    const name = 'YOUR_ROLE_NAME'
+    const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+
+    const calls = [
+        {
+            roleName,
+            to: uniswapV3NftManagerAddress,
+            value: '0',
+            data: decreaseLiquidityData,
+            operation: Operation.Call,
+        },
+        {
+            roleName,
+            to: uniswapV3NftManagerAddress,
+            value: '0',
+            data: collectData,
+            operation: Operation.Call,
+        },
+        {
+            roleName,
+            to: uniswapV3NftManagerAddress,
+            value: '0',
+            data: unwrapWETH9Data,
+            operation: Operation.Call,
+        },
+        {
+            roleName,
+            to: uniswapV3NftManagerAddress,
+            value: '0',
+            data: sweepTokenData,
+            operation: Operation.Call,
+        },
+    ]
+
+    const receipt = await execTransactionsFromModule(calls)
+    console.log('receipt: ', receipt)
 }
 ```
 

@@ -119,47 +119,129 @@ const execTransactionFromModule = async (
 Use `execTransactionFromModule` to call `mint`
 
 ```
-const swapUniToWeth = async () => {
-  const WETH = '0xc778417E063141139Fce010982780140Aa0cD5Ab'
-  const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
-  const swapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564'
-  const swapRouterAbi = [{
-    inputs: [{
-      components: [{ internalType: 'address', name: 'tokenIn', type: 'address' }, { internalType: 'address', name: 'tokenOut', type: 'address' }, { internalType: 'uint24', name: 'fee', type: 'uint24' }, { internalType: 'address', name: 'recipient', type: 'address' }, { internalType: 'uint256', name: 'deadline', type: 'uint256' }, { internalType: 'uint256', name: 'amountOut', type: 'uint256' }, { internalType: 'uint256', name: 'amountInMaximum', type: 'uint256' }, { internalType: 'uint160', name: 'sqrtPriceLimitX96', type: 'uint160' }],
-      internalType: 'struct ISwapRouter.ExactOutputSingleParams',
-      name: 'params',
-      type: 'tuple'
-    }],
-    name: 'exactOutputSingle',
-    outputs: [{ internalType: 'uint256', name: 'amountIn', type: 'uint256' }],
-    stateMutability: 'payable',
-    type: 'function'
-  }, {
-    inputs: [{ internalType: 'uint256', name: 'amountMinimum', type: 'uint256' }, { internalType: 'address', name: 'recipient', type: 'address' }],
-    name: 'unwrapWETH9',
-    outputs: [],
-    stateMutability: 'payable',
-    type: 'function'
-  }]
-  const web3 = new Web3(provider)
-  const swapRouterContract = new web3.eth.Contract(swapRouterAbi as AbiItem[], swapRouterAddress)
-  const params = {
-    tokenIn: UNI,
-    tokenOut: WETH,
-    fee: 10000,
-    recipient: safeAddress,
-    deadline: 1656573006,
-    amountOut: 100000000000000,
-    amountInMaximum: 119575749648988,
-    sqrtPriceLimitX96: 0,
-  }
-  const exactInputSingleData = swapRouterContract.methods.exactOutputSingle(params).encodeABI()
+const mint = async () => {
+    const WETH = '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6'
+    const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
+    const uniswapV3NftManagerAddress = '0xc36442b4a4522e871399cd717abdd847ab11fe88'
 
-  const name = 'ROLE_NAME'
-  const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+    const abi = [{
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "address",
+                        "name": "token0",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "token1",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    },
+                    {
+                        "internalType": "int24",
+                        "name": "tickLower",
+                        "type": "int24"
+                    },
+                    {
+                        "internalType": "int24",
+                        "name": "tickUpper",
+                        "type": "int24"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount0Desired",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount1Desired",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount0Min",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount1Min",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "recipient",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "deadline",
+                        "type": "uint256"
+                    }
+                ],
+                "internalType": "struct INonfungiblePositionManager.MintParams",
+                "name": "params",
+                "type": "tuple"
+            }
+        ],
+        "name": "mint",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "tokenId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint128",
+                "name": "liquidity",
+                "type": "uint128"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount0",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount1",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "payable",
+        "type": "function"
+    },]
+    const web3 = new Web3(provider)
+    const uniswapV3NftManagerContract = new web3.eth.Contract(abi as AbiItem[], uniswapV3NftManagerAddress)
 
-  const receipt = await execTransactionFromModule(roleName, swapRouterAddress, '0', exactInputSingleData, Operation.Call)
-  console.log('receipt: ', receipt)
+
+    const deadline = Math.floor(Date.now() / 1000) + 60 * 10; // 10 minutes from now
+
+    const params = {
+        token0: UNI,
+        token1: WETH,
+        fee: 10000,
+        tickLower: -16000,
+        tickUpper: 16000,
+        amount0Desired: 10000000000000000,
+        amount1Desired: 1,
+        amount0Min: 10000000000000000,
+        amount1Min: 0,
+        recipient: safeAddress,
+        deadline,
+    }
+
+    const mintData = uniswapV3NftManagerContract.methods['mint'](params).encodeABI()
+
+    const name = 'ROLE_NAME'
+    const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+
+    const receipt = await execTransactionFromModule(roleName, uniswapV3NftManagerAddress, '0', mintData, Operation.Call)
+    console.log('receipt: ', receipt)
 }
 ```
 
