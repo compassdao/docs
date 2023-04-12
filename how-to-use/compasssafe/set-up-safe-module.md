@@ -6,7 +6,7 @@ _**Create & Enable Module: if you have no Safe Module yet, click on "Create Safe
 
 A transaction to deploy & enable Module will be initiated. Check the transaction(the address marked below) and sign it with the Safe owners.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 PLEASE ENSURE YOU ARE REDIRECTING TO THE CORRECT CONTRACT ADDRESS (same address on all EVM chains):
@@ -18,7 +18,7 @@ MasterCopy(Template):  [0xE65b45851176690f49149164946627C776D552b2](https://ethe
 
 Once the transaction is on chain, the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [Set Member](set-member.md).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It's very dangerous to enable more than one module for each Safe, or enable modules you don't know/own. Please do not enable more than one module or unknown modules for your Safe.

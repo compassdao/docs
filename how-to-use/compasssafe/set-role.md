@@ -14,7 +14,7 @@ Then the functions of the contract will be listed automatically (the contract mu
 
 _**2.Once you confirm, you'll need to sign a transaction from the Safe owners.**_
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 Then you can find the roles in the list, click on "View" to view the details of the role (associated functions and parameters):
 
