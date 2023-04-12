@@ -9,9 +9,10 @@ description: for single transaction
 In this example, we are using `TypeScript` as the programming language. Please install the following dependencies first:
 
 * [web3.js](https://web3js.readthedocs.io/en/v1.7.4/)
-* ethereumjs-tx
+* @ethereumjs/tx
+* @ethereumjs/common
 
-Let's simulate the "+New Position" function on Uniswap on the Goerli network, adding a new LP position for USDC-WETH pair.
+Let's simulate the "+New Position" function on Uniswap on the Goerli network, adding a new LP position for UNI-WETH pair.
 
 We will use the `mint` method of the [NonfungiblePositionManager](https://goerli.etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88) contract. Please first set the [Role](../set-role.md) and [Member](../set-member.md).  (for the detailed method and parameters, you may refer to the Best Practice of [Uniswap](../best-practices/defi-dex-uniswap-v3.md))
 
@@ -37,7 +38,8 @@ Execute the `execTransactionFromModule` method of the Compass Safe Module:
 ```
 import { AbiItem } from 'web3-utils'
 import { TransactionReceipt } from 'web3-core'
-import { Transaction } from 'ethereumjs-tx'
+import { Transaction } from '@ethereumjs/tx'
+import { Chain, Common } from '@ethereumjs/common'
 
 enum Operation {
   None,
@@ -104,9 +106,12 @@ const execTransactionFromModule = async (
     gasLimit: 256312,
     value: 0,
   }
-  const tx = new Transaction(rawTx, { chain: 'goerli' })
-  tx.sign(privateKey)
-  const serializedTx = tx.serialize()
+  const common = new Common({ chain: Chain.Goerli })
+  const tx = Transaction.fromTxData(rawTx, { common })
+
+  const signedTx = tx.sign(privateKey)
+  const serializedTx = signedTx.serialize()
+
   return (
     web3.eth.sendSignedTransaction('0x' + serializedTx.toString('hex'))
       .once('sending', function (payload) { console.log('sending transaction') })
