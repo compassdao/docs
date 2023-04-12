@@ -14,9 +14,7 @@ In this example, we are using `TypeScript` as the programming language. Please i
 
 Let's simulate the "+New Position" function on Uniswap on the Goerli network, adding a new LP position for UNI-WETH pair.
 
-We will use the `mint` method of the [NonfungiblePositionManager](https://goerli.etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88) contract. Please first set the [Role](../set-role.md) and [Member](../set-member.md).  (for the detailed method and parameters, you may refer to the Best Practice of [Uniswap](../best-practices/defi-dex-uniswap-v3.md))
-
-
+We will use the `mint` method of the [NonfungiblePositionManager](https://goerli.etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88) contract. Please first set the [Role](../set-role.md) and [Member](../set-member.md). (for the detailed configurations for methods and parameters, you may refer to the Best Practice of [Uniswap](../best-practices/defi-dex-uniswap-v3.md))
 
 ### Example
 
@@ -249,7 +247,5 @@ const mint = async () => {
     console.log('receipt: ', receipt)
 }
 ```
-
-
 
 You can view the transaction on [https://goerli.etherscan.io/](https://goerli.etherscan.io/) using the `transactionHash`.
