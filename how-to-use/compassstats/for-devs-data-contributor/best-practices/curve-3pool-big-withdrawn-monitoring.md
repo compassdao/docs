@@ -4,7 +4,7 @@ Here we take Curve 3pool as an example to monitor the proportion of  USDT:
 
 ![](<../../../../.gitbook/assets/image (12) (1).png>)
 
-_Check the script here:_ [_https://compassdao.com/scripts/0xf9c4e606cb0c497c_](https://compassdao.com/scripts/0xf9c4e606cb0c497c)__
+_Check the script here:_ [_https://compassdao.com/scripts/0xf9c4e606cb0c497c_](https://compassdao.com/scripts/0xf9c4e606cb0c497c)
 
 The script code is as following:
 

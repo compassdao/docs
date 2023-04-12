@@ -1,27 +1,29 @@
 # Set Up Safe Module
 
-_**1.Create Module: if you have no Safe Module yet, click on "Create Safe Module".**_
+1. _**Create & Enable Module: if you have no Safe Module yet, click on "Create Safe Module".**_
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Check the transaction and sign it with your Metamask. The transaction will be sent for several minutes, once the transaction is on chain, you'll be directed to the next step to enable the module.
+A transaction to deploy & enable Module will be initiated. Check the transaction and sign it with the Safe owners.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-_****_
+{% hint style="info" %}
+PLEASE ENSURE YOU ARE REDIRECTING TO THE CORRECT CONTRACT ADDRESS (same address on all EVM chains):
 
-_**2.Enable Module: the window will be poped up automatically once the last step finished. You can also enter your Safe module manually.**_
+Factory: [0xc059Fd6DCdC0b02EE0adb7f0bb3A8D8B805962AC](https://etherscan.io/address/0xc059fd6dcdc0b02ee0adb7f0bb3a8d8b805962ac)
 
-Note: Check the module address to ensure it's your safe module. (you can compare with the last transaction log)
+MasterCopy(Template):  [0xE65b45851176690f49149164946627C776D552b2](https://etherscan.io/address/0xe65b45851176690f49149164946627c776d552b2)
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+Once the transaction is on chain, the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [Set Member](set-member.md).
 
-Now the Safe Module is set, you can find the Safe Module address in the app. You can then follow the next steps to [Set Role](set-role.md) and [Set Member](set-member.md).
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+It's very dangerous to enable more than one module for each Safe, or enable modules you don't know/own. Please do not enable more than one module or unknown modules for your Safe.
+{% endhint %}
 
-Note: It's very danger to enable more than one module for each Safe. Please do not create duplicate modules or enable more than one module for the same Safe.
-
-Check the modules you enabled in Safe App Settings - Modules:
+You can always check the modules you enabled in Safe App Settings - Modules:
 
 <figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Check the module enabled here</p></figcaption></figure>

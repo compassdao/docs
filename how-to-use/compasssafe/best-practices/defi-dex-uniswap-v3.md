@@ -27,7 +27,7 @@ Enter the role name and target contract address.
 
 `Polygon:` [`0xc36442b4a4522e871399cd717abdd847ab11fe88`](https://polygonscan.com/address/0xc36442b4a4522e871399cd717abdd847ab11fe88)`(Uniswap V3: Positions NFT) - all position related roles are set with it.`
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 1.  &#x20;**Collect Fees**
 
@@ -45,7 +45,7 @@ Enter the role name and target contract address.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 4.  **Increase Liquidity (only ERC20)**
 
     * Select the roles, fill the parameters if you need.
@@ -62,11 +62,11 @@ Enter the role name and target contract address.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  **Mint (ETH and ERC20)**
 
     * If you're using both native token(e.g. ETH) and ERC20 tokens, besides the roles above for **Mint (only ERC20)** , you may need additional role: refundETH()
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>

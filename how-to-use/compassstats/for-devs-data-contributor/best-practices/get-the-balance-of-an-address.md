@@ -4,7 +4,7 @@ The default Sample Script is a simple script to get the balance of an address, u
 
 ![](<../../../../.gitbook/assets/image (5) (2).png>)
 
-_Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](https://compassdao.com/scripts/0xb41154b301f7437c)__
+_Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](https://compassdao.com/scripts/0xb41154b301f7437c)
 
 The script code is as following:
 

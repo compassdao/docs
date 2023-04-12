@@ -17,7 +17,7 @@ Here we take [Aave](https://app.aave.com/) as a samlpe to show you how you can s
 
     * Select the roles and fill the parameters (Notice: the 2 parameters marked below must be the **Safe Address** otherwise the member with this role is able to transfer your assets away by abusing the functions).
 
-    <figure><img src="../../../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 2. _**Repay ERC20 & Withdraw ERC20**_
    *   Enter the role name and target contract address.
 

@@ -16,6 +16,6 @@ Have no script yet? See [Dev docs](../devs-documentation.md) to create your own 
 
 
 
-_**3.Once a task is scheduled, you can see the last 30 results here, want to Set a Alert with the results?  See**_ [_**Set Alerts**_](set-alerts.md)_****_
+_**3.Once a task is scheduled, you can see the last 30 results here, want to Set a Alert with the results?  See**_ [_**Set Alerts**_](set-alerts.md)
 
 ![](<../../../.gitbook/assets/image (3) (2).png>)

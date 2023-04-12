@@ -6,7 +6,7 @@ Here we take Curve 3pool as an example to monitor the proportion of  USDT:
 
 ![](<../../../../.gitbook/assets/image (14) (1).png>)
 
-_Check the script here:_ [_https://compassdao.com/scripts/0x7361a257b248491a_](https://compassdao.com/scripts/0x7361a257b248491a)__
+_Check the script here:_ [_https://compassdao.com/scripts/0x7361a257b248491a_](https://compassdao.com/scripts/0x7361a257b248491a)
 
 The script code is as following:
 
@@ -80,7 +80,7 @@ _So the alert will notify me when the change is above 2%, and some variants from
 
 > ⚠️ Warning: $USDT ratio of @CurveFinance 3pool is now {usdtRatio}%, $USDC balance is {USDCAmount}, $DAI balance is {DAIAmount}, for more info, see: https://compassdao.com/scripts/0x7361a257b248491a. Powered by @compassDAO
 
-![](<../../../../.gitbook/assets/image (15) (1).png>)
+![](<../../../../.gitbook/assets/image (13) (1).png>)
 
 Now you get your perfect Twitter bot:
 

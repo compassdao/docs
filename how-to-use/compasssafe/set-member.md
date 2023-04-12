@@ -6,7 +6,7 @@ _**1.Go to "MEMBERS", click on "ADD MEMBER", enter the Member Name(stored locall
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-_****_
+
 
 _**2.Sign the transaction with the Safe owners.**_
 
@@ -16,7 +16,7 @@ Now the member is granted with the roles, so he/she can initiate and sign the pr
 
 <figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
-_****_
+
 
 _**3.You may edit/delete the members anytime you want (you'll need to sign a transaction with Safe owners when you do it).**_
 

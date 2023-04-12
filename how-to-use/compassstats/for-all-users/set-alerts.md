@@ -14,7 +14,7 @@ _**2.Define the condition of the Alert here.**_ If the result of your script is 
 
 You can also enter the key of your wanted value _**if you have the result as "Object"**_.  And you can set flexible alert message with the results.
 
-![](<../../../.gitbook/assets/image (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (2).png>)
 
 See the Twitter Bot sample here: [https://twitter.com/compassBots](https://twitter.com/compassBots)
 

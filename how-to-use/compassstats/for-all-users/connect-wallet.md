@@ -4,7 +4,7 @@ You can view the community scripts without any authentication, but once you want
 
 **Notice: we will never ask you for the private key or Mnemonic Phrase!  We connect your wallet just to verify your DID.**
 
-****
+
 
 Choose the wallet you're using, sign the pop-up message, now you're here!
 
