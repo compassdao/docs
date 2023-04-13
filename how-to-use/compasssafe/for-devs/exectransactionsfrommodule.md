@@ -14,7 +14,7 @@ In this example, we are using `TypeScript` as the programming language. Please i
 
 Let's simulate the "Remove Liquidity" function on Uniswap on the Goerli network, removing liquidity for UNI-WETH pair.
 
-We will use the `decreaseLiquidity`, `collect`, and `unwrapWETH9` and `sweepToken` method of the [NonfungiblePositionManager](https://goerli.etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88) contract. Please first set the [Role](../set-role.md) and [Member](../set-member.md). (for the detailed configurations for methods and parameters, you may refer to the Best Practice of [Uniswap](../best-practices/defi-dex-uniswap-v3.md))
+We will use the `decreaseLiquidity` and `collect` method of the [NonfungiblePositionManager](https://goerli.etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88) contract. Please first set the [Role](../set-role.md) and [Member](../set-member.md). (for the detailed configurations for methods and parameters, you may refer to the Best Practice of [Uniswap](../best-practices/defi-dex-uniswap-v3.md))
 
 ### Example
 
@@ -124,7 +124,7 @@ const execTransactionsFromModule = async (
 }
 ```
 
-Use `execTransactionsFromModule` to call `decreaseLiquidity`, `collect`, and `unwrapWETH9` and `sweepToken` method
+Use `execTransactionsFromModule` to call `decreaseLiquidity` and `collect` method
 
 ```
 const decreaseLiquidity = async () => {
@@ -196,51 +196,6 @@ const decreaseLiquidity = async () => {
             "name": "Collect",
             "type": "event"
         },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "amountMinimum",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "address",
-                    "name": "recipient",
-                    "type": "address"
-                }
-            ],
-            "name": "unwrapWETH9",
-            "outputs": [
-
-            ],
-            "stateMutability": "payable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "token",
-                    "type": "address"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "amountMinimum",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "address",
-                    "name": "recipient",
-                    "type": "address"
-                }
-            ],
-            "name": "sweepToken",
-            "outputs": [
-
-            ],
-            "stateMutability": "payable",
-            "type": "function"
-        },
     ]
     const web3 = new Web3(provider)
     const  uniswapV3NftManagerContract = new web3.eth.Contract(abi as AbiItem[], uniswapV3NftManagerAddress)
@@ -279,28 +234,6 @@ const decreaseLiquidity = async () => {
     ).encodeABI();
 
 
-    const unwrapWETH9Params = [
-        83628712091,
-        safeAddress,
-    ]
-    const unwrapWETH9Data = uniswapV3NftManagerContract.methods['unwrapWETH9'](
-        unwrapWETH9Params[0],
-        unwrapWETH9Params[1]
-    ).encodeABI();
-
-
-    const sweepTokenParams = [
-        UNI,
-        2499999999999999,
-        safeAddress
-    ]
-    const sweepTokenData = uniswapV3NftManagerContract.methods['sweepToken'](
-        sweepTokenParams[0],
-        sweepTokenParams[1],
-        sweepTokenParams[2]
-    ).encodeABI();
-
-
     const name = 'YOUR_ROLE_NAME'
     const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
 
@@ -317,20 +250,6 @@ const decreaseLiquidity = async () => {
             to: uniswapV3NftManagerAddress,
             value: '0',
             data: collectData,
-            operation: Operation.Call,
-        },
-        {
-            roleName,
-            to: uniswapV3NftManagerAddress,
-            value: '0',
-            data: unwrapWETH9Data,
-            operation: Operation.Call,
-        },
-        {
-            roleName,
-            to: uniswapV3NftManagerAddress,
-            value: '0',
-            data: sweepTokenData,
             operation: Operation.Call,
         },
     ]
