@@ -126,7 +126,7 @@ const execTransactionsFromModule = async (
 Please note: to obtain the parameter roleName, we can directly retrieve it from the role list in Compass Safe, or compile it based on the Role Name.
 ```
 const name = "Uniswap V3 Mint"
-const roleName = Buffer.from(name).toString("utf8").replaceAll("\x00", "")
+const roleName = ethers.utils.formatBytes32String(name)
 ```
 Use `execTransactionsFromModule` to call `decreaseLiquidity` and `collect` method
 
@@ -239,7 +239,7 @@ const decreaseLiquidity = async () => {
 
 
     const name = 'YOUR_ROLE_NAME'
-    const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+    const roleName = ethers.utils.formatBytes32String(name);
 
     const calls = [
         {

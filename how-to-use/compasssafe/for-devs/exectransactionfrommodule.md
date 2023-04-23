@@ -38,6 +38,7 @@ import { AbiItem } from 'web3-utils'
 import { TransactionReceipt } from 'web3-core'
 import { Transaction } from '@ethereumjs/tx'
 import { Chain, Common } from '@ethereumjs/common'
+import { ethers } from 'ethers'
 
 enum Operation {
   None,
@@ -122,7 +123,7 @@ const execTransactionFromModule = async (
 Please note: to obtain the parameter roleName, we can directly retrieve it from the role list in Compass Safe, or compile it based on the Role Name.
 ```
 const name = "Uniswap V3 Mint"
-const roleName = Buffer.from(name).toString("utf8").replaceAll("\x00", "")
+const roleName = ethers.utils.formatBytes32String(name)
 ```
 Use `execTransactionFromModule` to call `mint`.
 
@@ -246,7 +247,7 @@ const mint = async () => {
     const mintData = uniswapV3NftManagerContract.methods['mint'](params).encodeABI()
 
     const name = 'ROLE_NAME'
-    const roleName = Buffer.from(name, "hex").toString("utf8").replaceAll("\x00", "");
+    const roleName = ethers.utils.formatBytes32String(name);
 
     const receipt = await execTransactionFromModule(roleName, uniswapV3NftManagerAddress, '0', mintData, Operation.Call)
     console.log('receipt: ', receipt)
