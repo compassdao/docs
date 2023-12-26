@@ -12,7 +12,7 @@ The script code is as following:
 
 _Here we use \[_[_Cache_](../../devs-documentation.md)_] to store last result, and define a delta variant to monitor the change of the ratio._
 
-```
+```typescript
 export const name = '3pool USDT';
 export const description = 'curve 3pool monitor';
 export const tag = 'curve 3pool';
@@ -60,7 +60,7 @@ export const run = async () => {
 
 _Once the Script is created, it can be saved and run, the result is as below:_
 
-```
+```json
 {
   "USDTAmount": 247110557.436453,
   "USDCAmount": 357517694.26593,
@@ -80,7 +80,7 @@ _So the alert will notify me when the change is above 2%, and some variants from
 
 > ⚠️ Warning: $USDT ratio of @CurveFinance 3pool is now {usdtRatio}%, $USDC balance is {USDCAmount}, $DAI balance is {DAIAmount}, for more info, see: https://compassdao.com/scripts/0x7361a257b248491a. Powered by @compassDAO
 
-![](<../../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../../.gitbook/assets/image (15) (1).png>)
 
 Now you get your perfect Twitter bot:
 

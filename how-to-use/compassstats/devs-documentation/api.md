@@ -4,7 +4,7 @@ The scripts can be used as [Tasks](broken-reference) and [Alerts](broken-referen
 
 ## Get Script: /scripts/${scriptId}
 
-```shell
+```bash
 curl --request GET --url https://compassdao.com/i/scripts/0x2a03cd198ab14df0
 ```
 

@@ -20,7 +20,7 @@ We will use the `decreaseLiquidity` and `collect` method of the [NonfungiblePosi
 
 We use [Infura](https://www.infura.io/zh) as the provider. You may choose the provider you like:
 
-```
+```typescript
 import Web3 from 'web3'
 
 const moduleAddress = 'YOUR_COMPASS_SAFE_MODULE_ADDRESS'
@@ -33,7 +33,7 @@ const privateKey = Buffer.from('YOUR_MEMBER_PRIVATE_KEY', 'hex')
 
 Execute the `execTransactionsFromModule` method of the Compass Safe Module:
 
-```
+```typescript
 import { AbiItem } from 'web3-utils'
 import { TransactionReceipt } from 'web3-core'
 import { Transaction } from '@ethereumjs/tx'
@@ -123,14 +123,17 @@ const execTransactionsFromModule = async (
   )
 }
 ```
+
 Please note: to obtain the parameter roleName, we can directly retrieve it from the role list in Compass Safe, or compile it based on the Role Name.
-```
+
+```typescript
 const name = "Uniswap V3 Mint"
 const roleName = ethers.utils.formatBytes32String(name)
 ```
+
 Use `execTransactionsFromModule` to call `decreaseLiquidity` and `collect` method
 
-```
+```typescript
 const decreaseLiquidity = async () => {
 
     const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'

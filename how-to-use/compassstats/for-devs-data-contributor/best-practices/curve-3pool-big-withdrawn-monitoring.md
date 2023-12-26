@@ -10,7 +10,7 @@ The script code is as following:
 
 _Here we use \[_[_Cache_](../../devs-documentation.md)_] to store last checkpoint of block number._
 
-```
+```typescript
 export const name = 'Curve 3Pool Big Withdraw';
 export const description = 'Big transfer';
 export const tag = 'curve';
@@ -74,7 +74,7 @@ export const run = async () => {
 
 Once the Script is created, it can be saved and run, the result is as below (array):
 
-```
+```json
 [
   {
     "symbol": "USDT",

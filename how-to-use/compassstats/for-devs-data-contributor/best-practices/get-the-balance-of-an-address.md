@@ -8,7 +8,7 @@ _Check the script here:_ [_https://compassdao.com/scripts/0xb41154b301f7437c_](h
 
 The script code is as following:
 
-```
+```typescript
 export const name = "My Awesome Script";
 export const description = "Get balance of address";
 export const tag = "eth balance";
